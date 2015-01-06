@@ -1,0 +1,81 @@
+
+body {
+  height: 100%;
+  background: dimgray;
+  color: dimgray;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  border-radius: 100%;
+  width: 75px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 20px;
+  }
+
+hr {
+    border: 1px solid #003399;
+
+}
+
+.boxed {
+  height: 2000px;
+  width: 875px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+
+/*-------------------NAVBAR-------------------*/
+.navbar ul {
+  text-align: center;
+}
+.navbar li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar a:link {
+  color: dimgray;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: dimgray;
+}
+.navbar a:visited {
+  color: dimgray;
+}
+.navbar a:active {
+  color: dimgray;
+}
+
+
+/*-----------------END NAVBAR-----------------*/
+
+p {
+  text-align: center;
+}
+
+.quotes ul {
+  text-align: center;
+}
+.quotes li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.quotes img {
+  border-radius: 0%;
+  width: 200px;
+}

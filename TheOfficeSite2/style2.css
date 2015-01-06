@@ -1,0 +1,52 @@
+/*********MAIN*********/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/********NAVBAR********/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff0000;
+  background: #ffffff;
+}
+
+/******END NAVBAR******/
+
+
+header, footer {
+  display: block;
+  background-color: red;
+  width: 100%;
+}
+
+/*******LAYOUT*******/
+
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+section {
+  width: 70%;
+}
+
+aside {
+  width: 20%;
+}
