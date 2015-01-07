@@ -108,12 +108,16 @@ article p {
     width: 75px;
 }
 
+.special-quote {
+  background-color: #8DB6CD;
+}
 .quote {
   background-color: #8DB6CD;
 }
 
 .special-header header {
   height: 155px;
+  background color: #8DB6CD;
 }
 
 .episode-guide article {
