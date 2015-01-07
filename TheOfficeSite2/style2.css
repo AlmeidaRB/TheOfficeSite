@@ -110,8 +110,11 @@ article p {
 }
 
 .boxed img {
-  margin: -4px;
+  margin: 0px;
   text-align: center;
+}
+.nav2-pics img {
+  margin: -4px;
 }
 
 .logo {
