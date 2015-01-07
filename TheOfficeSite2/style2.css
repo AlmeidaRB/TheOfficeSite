@@ -1,7 +1,6 @@
 /*********MAIN*********/
 
 body {
-  height: 100%;
   background: #white;
   color: white;
   font-family: 'Quicksand', sans-serif;
@@ -113,8 +112,9 @@ article p {
   margin: 0px;
   text-align: center;
 }
-.nav2-pics img {
-  margin: -4px;
+.special-nav img {
+  margin: -1.25%;
+  padding: 0%;
 }
 
 .logo {
@@ -219,5 +219,5 @@ header, footer {
   margin: 0 auto -7em;
 }
 .footer, .push {
-  height: 1em;
+  height: 10em;
 }
