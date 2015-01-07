@@ -8,6 +8,8 @@ body {
 
 img {
   border-radius: 100%;
+  border-width: 2px;
+  border-color: navy;
   width: 75px;
 }
 

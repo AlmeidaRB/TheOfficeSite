@@ -1,41 +1,169 @@
 /*********MAIN*********/
 
 body {
-  margin: 0;
-  padding: 0;
+  height: 100%;
+  background: #white;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  height: 10px;
+  font-family: 'American Typewriter'
 }
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  height: 1px;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+hr {
+  border: 1px solid dimgray;
+
+}
+
+
+/*****END OF MAIN*****/
+
+
+/******DIV BOXES*****/
+
+.boxed {
+  height: 2000px;
+  width: 1300px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #959595;
+}
+
+.boxed img {
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 80px;
+}
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+}
+
+/***END OF DIV BOXES***/
+
+
+
 /********NAVBAR********/
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.navbar ul {
+  text-align: center;
 }
-
-nav li {
+.navbar li {
   display: inline-block;
+  padding: 10px;
 }
 
-nav a {
-  display: block;
-  padding: 15px;
-  color: #ffffff;
+.navbar a:link {
+  color: white;
   text-decoration: none;
 }
-
-nav a:hover {
-  color: #ff0000;
-  background: #ffffff;
+.navbar a:hover {
+  color: black;
+}
+.navbar a:visited {
+  color: white;
 }
 
 /******END NAVBAR******/
 
+/********QUOTES********/
+
+p {
+  text-align: center;
+}
+
+.quotes ul {
+  text-align: center;
+}
+.quotes li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.quotes img {
+  border-radius: 0%;
+  width: 200px;
+}
+/******END QUOTES******/
+
+section {
+ text-align: center;
+
+}
+
+ul {
+  padding: 0px;
+  width: 1300px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+}
+
+.epsiodes ul {
+  list-style-type: none;
+}
+
+.episodes li {
+  display: inline-block;
+  margin: 0px;
+  text-align: center;
+}
+
+.episodes p {
+  display: inline-block;
+  text-align: center;
+}
+/*****HEADER/FOOTER****/
 
 header, footer {
   display: block;
-  background-color: red;
   width: 100%;
 }
 
+.wrapper {
+  min-height: 100%;
+  height: auto ;
+  height: 100%;
+  margin: 0 auto -7em;
+}
+.footer, .push {
+  height: 1em;
+}
 /*******LAYOUT*******/
 
 section, aside {
