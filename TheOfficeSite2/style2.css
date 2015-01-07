@@ -18,13 +18,15 @@ h2 {
   text-align: center;
   padding: 10px;
   height: 1px;
-  margin: 0;
+  margin: 10;
 }
 
 h3 {
   text-align: center;
   margin-left: 90px;
   margin-right: 90px;
+  margin: -5px;
+  padding: 20px;
   color: white;
 }
 
@@ -39,11 +41,30 @@ hr {
 
 }
 
+section {
+  text-align: center;
+}
+
+ul {
+  padding: 2px;
+  width: 1300px;
+  margin: 0px;
+  list-style-type: none;
+  height: 22px;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+  height: 22px;
+}
+
 
 /*****END OF MAIN*****/
 
 
-/******DIV BOXES*****/
+/******DIV CLASSES*****/
 
 .boxed {
   height: 2000px;
@@ -61,7 +82,7 @@ hr {
 }
 
 .logo {
-  height: 80px;
+  height: 90px;
 }
 .logo img {
     display: block;
@@ -70,17 +91,40 @@ hr {
     width: 75px;
 }
 
-/***END OF DIV BOXES***/
+.quote {
+  background-color: #8DB6CD;
+}
 
+.special-header header {
+  height: 155px;
+}
 
+.episode-guide article {
+  display: inline-block;
+  margin: 20px;
+}
+
+.wrap {
+  text-align: center;
+}
+
+/***END OF DIV CLASSES***/
 
 /********NAVBAR********/
+
+.navbar {
+  height: 30px;
+  background-color: #8DB6CD;
+}
 .navbar ul {
   text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 .navbar li {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
+  margin: 0px;
 }
 
 .navbar a:link {
@@ -93,47 +137,6 @@ hr {
 .navbar a:visited {
   color: white;
 }
-
-/******END NAVBAR******/
-
-/********QUOTES********/
-
-p {
-  text-align: center;
-}
-
-.quotes ul {
-  text-align: center;
-}
-.quotes li {
-  display: inline-block;
-  padding: 10px;
-}
-
-.quotes img {
-  border-radius: 0%;
-  width: 200px;
-}
-/******END QUOTES******/
-
-section {
- text-align: center;
-
-}
-
-ul {
-  padding: 0px;
-  width: 1300px;
-  margin: 0px;
-  list-style-type: none;
-}
-
-li {
-  display: inline-block;
-  margin: 15px;
-  text-align: center;
-}
-
 .epsiodes ul {
   list-style-type: none;
 }
@@ -148,11 +151,20 @@ li {
   display: inline-block;
   text-align: center;
 }
+
+/******END NAVBAR******/
+
 /*****HEADER/FOOTER****/
+
+header {
+  height: 715px;
+}
 
 header, footer {
   display: block;
   width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .wrapper {
@@ -163,18 +175,4 @@ header, footer {
 }
 .footer, .push {
   height: 1em;
-}
-/*******LAYOUT*******/
-
-section, aside {
-  display: inline-block;
-  vertical-align: top;
-}
-
-section {
-  width: 70%;
-}
-
-aside {
-  width: 20%;
 }
