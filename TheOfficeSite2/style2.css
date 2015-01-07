@@ -43,6 +43,22 @@ hr {
 
 section {
   text-align: center;
+  display: inline-block;
+}
+
+section ul {
+    padding: 0px;
+    width: 1300px;
+    margin: -15px;
+    list-style-type: none;
+    height: 0px;
+}
+section li {
+  display: inline-block;
+  margin: 4px;
+  text-align: center;
+  height: 0px;
+  padding: 20px;
 }
 
 ul {
@@ -127,6 +143,11 @@ article p {
 
 .wrap {
   text-align: center;
+}
+
+.spacer {
+  background-color: #8DB6CD;
+  margin: 0px;
 }
 
 /***END OF DIV CLASSES***/
