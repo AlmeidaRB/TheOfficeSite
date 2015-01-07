@@ -110,7 +110,7 @@ article p {
 }
 
 .boxed img {
-  margin: 0;
+  margin: -4px;
   text-align: center;
 }
 
