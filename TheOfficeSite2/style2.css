@@ -60,6 +60,23 @@ li {
   height: 22px;
 }
 
+article ul {
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+  }
+
+article li {
+    margin: 0px;
+    pading: 0px;
+    text-align: center;
+}
+
+article p {
+  padding: 5px;
+  margin: 10px;
+  display: inline-block
+}
 
 /*****END OF MAIN*****/
 
