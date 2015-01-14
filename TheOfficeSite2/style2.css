@@ -221,3 +221,69 @@ header, footer {
 .footer, .push {
   height: 10em;
 }
+/****RESPONSIVENESS****/
+@media screen and (max-width:320px) {
+  .boxed {
+    max-width: 320px;
+    max-height: 100%;
+  }
+@media screen and (max-width:320px) {
+  .wrapper {
+    max-width: 320px;
+    max-height: 100%;
+  }
+@media screen and (max-width:320px) {
+  .navbar {
+    max-width: 320px;
+    max-height: 100%;
+    display: inline-block;
+    height: 60px;
+  }
+@media screen and (max-width:320px) {
+  img, ul {
+    max-width: 320px;
+    max-height: 100%;
+  }
+@media screen and (max-width:320px) {
+  li {
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    padding: 2px;
+    }
+@media screen and (max-width:320px) {
+  section li {
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    padding: 20px;
+    height: 220px;
+  }
+@media screen and (max-width:320px) {
+  .headerimg img {
+    display:none;
+  }
+@media screen and (max-width:320px) {
+    .headerimg {
+      display: inline-block;
+      height: 320px;
+      width: 320px;
+background: url("images/responsiveheader.jpg");
+    }
+@media screen and (max-width:320px) {
+  .logo {
+    display: none;
+  }
+@media screen and (max-width:320px) {
+  .special-header header {
+    display: inline-block;
+    height:100px
+  }
+@media screen and (max-width:320px) {
+  header, footer {
+    display:inline;
+}
+@media screen and (max-width:320px) {
+  h1 {
+    font-size: 40px;
+  }
